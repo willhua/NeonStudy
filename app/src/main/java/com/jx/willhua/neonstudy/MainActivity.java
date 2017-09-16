@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
-    public native String native0();
+    public native void native0();
+    public native void native1();
 
     // Used to load the 'native-lib' library on application startup.
     static {
